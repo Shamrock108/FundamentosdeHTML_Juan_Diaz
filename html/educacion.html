@@ -33,7 +33,70 @@
 			</nav>
 		</header>
 		<section>
-			
+			<h2>Educación</h2>
+			<table border="1" cellpadding="10">
+				<thead>
+					<tr>
+						<th>Año</th>
+						<th>Institución</th>
+						<th>Lugar</th>
+						<th>¿Culminó?</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2009</td>
+						<td>Escuela Colombiana de Ingeniería</td>
+						<td>Bogotá</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2013</td>
+						<td>Clase maestra training center</td>
+						<td>Bogotá</td>
+						<td>Si</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<form action="" autocomplete="on">
+				<fieldset>
+					<legend><strong>Agregar estudios</strong></legend>
+					<p>
+						<label for="anio"><strong><em>Año</em></strong></label><br>
+						<select name="anio">
+							<option value="2017">2017</option>
+							<option value="2016">2016</option>
+							<option value="2015">2015</option>
+							<option value="2014">2014</option>
+							<option value="2013">2013</option>
+							<option value="2012">2012</option>
+							<option value="2011">2011</option>
+							<option value="2010">2010</option>
+							<option value="2009">2009</option>
+							<option value="2008">2008</option>
+						</select>
+					</p>
+					<p>
+						<label for="institucion"><em><strong>Institución</strong></em></label><br>
+						<textarea name="institucion" cols="50" rows="1" required placeholder="Institución donde cursó"></textarea>
+					</p>
+					<p>
+						<label for="lugar"><em><strong>Lugar</strong><em></label><br>
+						<textarea name="lugar" cols="50" rows="3" placeholder="Lugar donde cursó"></textarea>
+					</p>
+					<p>
+						<label for="culmino"><em><strong>¿Culminó?</strong></em></label><br>
+						si
+						<input type="radio" name="culmino">
+						no
+						<input type="radio" name="culmino">
+					</p>
+					<p>
+						<input type="submit">
+					</p>
+				</fieldset>
+			</form>
 		</section>
 		<footer>
 			<p>
